@@ -1,5 +1,5 @@
 {
-  "source_base_path": "C:/Users/armaa/source/repos/ase-boose-assignment-Armaanilyas",
+  "source_base_path": "C:/Users/armaa/source/repos/ase-boose-assignment-Armaanilyas/BOOSEproject",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -12,76 +12,243 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "BOOSEproject/Documentation/getting-started.md",
+      "source_relative_path": "Documentation/getting-started.md",
       "output": {
         ".html": {
-          "relative_path": "BOOSEproject/Documentation/getting-started.html"
+          "relative_path": "Documentation/getting-started.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "BOOSEproject/Documentation/introduction.md",
+      "source_relative_path": "Documentation/introduction.md",
       "output": {
         ".html": {
-          "relative_path": "BOOSEproject/Documentation/introduction.html"
+          "relative_path": "Documentation/introduction.html"
         }
       },
       "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B.Parser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B.Parser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "B.Parser",
+      "Summary": "<p sourcefile=\"api/B.Parser.yml\" sourcestartlinenumber=\"1\">Lightweight parser used by the application to convert textual BOOSE programs\ninto command objects consumed by <xref href=\"BOOSE.StoredProgram\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "B",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.StoredProgramException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.StoredProgramException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.StoredProgramException",
+      "Summary": "<p sourcefile=\"api/BOOSE.StoredProgramException.yml\" sourcestartlinenumber=\"1\">Exception type thrown for errors related to the stored program execution or management.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSETests.CanvasCommandTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSETests.CanvasCommandTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSETests.CanvasCommandTests",
+      "Summary": "<p sourcefile=\"api/BOOSETests.CanvasCommandTests.yml\" sourcestartlinenumber=\"1\">Unit tests that exercise drawing commands on the application's canvas implementation.\nTests use reflection to instantiate the internal <code>BOOSEproject.IAppCanvas</code> type\nso production code does not need to be modified for testing.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSETests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSETests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSETests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEproject.AppCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEproject.AppCircle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEproject.AppCircle",
+      "Summary": "<p sourcefile=\"api/BOOSEproject.AppCircle.yml\" sourcestartlinenumber=\"1\">Command implementation that draws a circle on the canvas using a single integer parameter (radius).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEproject.AppCommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEproject.AppCommandFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEproject.AppCommandFactory",
+      "Summary": "<p sourcefile=\"api/BOOSEproject.AppCommandFactory.yml\" sourcestartlinenumber=\"1\">Application-specific command factory that produces concrete <xref href=\"BOOSE.ICommand\" data-throw-if-not-resolved=\"false\"></xref> instances\nused by the parser and program runner.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEproject.AppMoveTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEproject.AppMoveTo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEproject.AppMoveTo",
+      "Summary": "<p sourcefile=\"api/BOOSEproject.AppMoveTo.yml\" sourcestartlinenumber=\"1\">Command implementation that moves the drawing cursor to a specified (X, Y) position.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEproject.AppRectangle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEproject.AppRectangle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEproject.AppRectangle",
+      "Summary": "<p sourcefile=\"api/BOOSEproject.AppRectangle.yml\" sourcestartlinenumber=\"1\">Command implementation that draws a rectangle on the canvas using two integer parameters (width, height).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEproject.ApplicationConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEproject.ApplicationConfiguration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEproject.ApplicationConfiguration",
+      "Summary": "<p sourcefile=\"api/BOOSEproject.ApplicationConfiguration.yml\" sourcestartlinenumber=\"1\">Bootstrap the application configuration.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEproject.Form1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEproject.Form1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEproject.Form1",
+      "Summary": "<p sourcefile=\"api/BOOSEproject.Form1.yml\" sourcestartlinenumber=\"1\">Main application form that hosts the BOOSE canvas, parser, program store and command factory.\nProvides UI entry point to parse and run BOOSE programs and renders canvas output.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEproject.IAppCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEproject.IAppCanvas.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEproject.IAppCanvas",
+      "Summary": "<p sourcefile=\"api/BOOSEproject.IAppCanvas.yml\" sourcestartlinenumber=\"1\">Application canvas implementation used by the program for all drawing operations.\nImplements the <xref href=\"BOOSE.ICanvas\" data-throw-if-not-resolved=\"false\"></xref> interface expected by command objects.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEproject.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEproject.Program.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEproject.Program",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEproject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEproject.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEproject",
+      "Summary": null
     },
     {
       "type": "Toc",
-      "source_relative_path": "BOOSEproject/Documentation/toc.yml",
+      "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "BOOSEproject/Documentation/toc.html"
+          "relative_path": "api/toc.html"
         },
         ".json": {
-          "relative_path": "BOOSEproject/Documentation/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "BOOSEproject/getting-started.md",
-      "output": {
-        ".html": {
-          "relative_path": "BOOSEproject/getting-started.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "BOOSEproject/introduction.md",
-      "output": {
-        ".html": {
-          "relative_path": "BOOSEproject/introduction.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "BOOSEproject/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "BOOSEproject/toc.html"
-        },
-        ".json": {
-          "relative_path": "BOOSEproject/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "README.md",
-      "output": {
-        ".html": {
-          "relative_path": "README.html"
+          "relative_path": "api/toc.json"
         }
       },
       "version": ""

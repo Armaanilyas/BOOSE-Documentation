@@ -1,3 +1,870 @@
 ### YamlMime:XRefMap
 sorted: true
-references: []
+references:
+- uid: B
+  name: B
+  href: api/B.html
+  commentId: N:B
+  fullName: B
+  nameWithType: B
+- uid: B.Parser
+  name: Parser
+  href: api/B.Parser.html
+  commentId: T:B.Parser
+  fullName: B.Parser
+  nameWithType: Parser
+- uid: B.Parser.ParseCommand(System.String)
+  name: ParseCommand(string)
+  href: api/B.Parser.html#B_Parser_ParseCommand_System_String_
+  commentId: M:B.Parser.ParseCommand(System.String)
+  name.vb: ParseCommand(String)
+  fullName: B.Parser.ParseCommand(string)
+  fullName.vb: B.Parser.ParseCommand(String)
+  nameWithType: Parser.ParseCommand(string)
+  nameWithType.vb: Parser.ParseCommand(String)
+- uid: B.Parser.ParseCommand*
+  name: ParseCommand
+  href: api/B.Parser.html#B_Parser_ParseCommand_
+  commentId: Overload:B.Parser.ParseCommand
+  isSpec: "True"
+  fullName: B.Parser.ParseCommand
+  nameWithType: Parser.ParseCommand
+- uid: B.Parser.ParseProgram(System.String)
+  name: ParseProgram(string)
+  href: api/B.Parser.html#B_Parser_ParseProgram_System_String_
+  commentId: M:B.Parser.ParseProgram(System.String)
+  name.vb: ParseProgram(String)
+  fullName: B.Parser.ParseProgram(string)
+  fullName.vb: B.Parser.ParseProgram(String)
+  nameWithType: Parser.ParseProgram(string)
+  nameWithType.vb: Parser.ParseProgram(String)
+- uid: B.Parser.ParseProgram*
+  name: ParseProgram
+  href: api/B.Parser.html#B_Parser_ParseProgram_
+  commentId: Overload:B.Parser.ParseProgram
+  isSpec: "True"
+  fullName: B.Parser.ParseProgram
+  nameWithType: Parser.ParseProgram
+- uid: BOOSE
+  name: BOOSE
+  href: api/BOOSE.html
+  commentId: N:BOOSE
+  fullName: BOOSE
+  nameWithType: BOOSE
+- uid: BOOSE.StoredProgramException
+  name: StoredProgramException
+  href: api/BOOSE.StoredProgramException.html
+  commentId: T:BOOSE.StoredProgramException
+  fullName: BOOSE.StoredProgramException
+  nameWithType: StoredProgramException
+- uid: BOOSE.StoredProgramException.#ctor
+  name: StoredProgramException()
+  href: api/BOOSE.StoredProgramException.html#BOOSE_StoredProgramException__ctor
+  commentId: M:BOOSE.StoredProgramException.#ctor
+  name.vb: New()
+  fullName: BOOSE.StoredProgramException.StoredProgramException()
+  fullName.vb: BOOSE.StoredProgramException.New()
+  nameWithType: StoredProgramException.StoredProgramException()
+  nameWithType.vb: StoredProgramException.New()
+- uid: BOOSE.StoredProgramException.#ctor(System.String)
+  name: StoredProgramException(string)
+  href: api/BOOSE.StoredProgramException.html#BOOSE_StoredProgramException__ctor_System_String_
+  commentId: M:BOOSE.StoredProgramException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: BOOSE.StoredProgramException.StoredProgramException(string)
+  fullName.vb: BOOSE.StoredProgramException.New(String)
+  nameWithType: StoredProgramException.StoredProgramException(string)
+  nameWithType.vb: StoredProgramException.New(String)
+- uid: BOOSE.StoredProgramException.#ctor*
+  name: StoredProgramException
+  href: api/BOOSE.StoredProgramException.html#BOOSE_StoredProgramException__ctor_
+  commentId: Overload:BOOSE.StoredProgramException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSE.StoredProgramException.StoredProgramException
+  fullName.vb: BOOSE.StoredProgramException.New
+  nameWithType: StoredProgramException.StoredProgramException
+  nameWithType.vb: StoredProgramException.New
+- uid: BOOSETests
+  name: BOOSETests
+  href: api/BOOSETests.html
+  commentId: N:BOOSETests
+  fullName: BOOSETests
+  nameWithType: BOOSETests
+- uid: BOOSETests.CanvasCommandTests
+  name: CanvasCommandTests
+  href: api/BOOSETests.CanvasCommandTests.html
+  commentId: T:BOOSETests.CanvasCommandTests
+  fullName: BOOSETests.CanvasCommandTests
+  nameWithType: CanvasCommandTests
+- uid: BOOSETests.CanvasCommandTests.CreateCanvas(System.Int32,System.Int32)
+  name: CreateCanvas(int, int)
+  href: api/BOOSETests.CanvasCommandTests.html#BOOSETests_CanvasCommandTests_CreateCanvas_System_Int32_System_Int32_
+  commentId: M:BOOSETests.CanvasCommandTests.CreateCanvas(System.Int32,System.Int32)
+  name.vb: CreateCanvas(Integer, Integer)
+  fullName: BOOSETests.CanvasCommandTests.CreateCanvas(int, int)
+  fullName.vb: BOOSETests.CanvasCommandTests.CreateCanvas(Integer, Integer)
+  nameWithType: CanvasCommandTests.CreateCanvas(int, int)
+  nameWithType.vb: CanvasCommandTests.CreateCanvas(Integer, Integer)
+- uid: BOOSETests.CanvasCommandTests.CreateCanvas*
+  name: CreateCanvas
+  href: api/BOOSETests.CanvasCommandTests.html#BOOSETests_CanvasCommandTests_CreateCanvas_
+  commentId: Overload:BOOSETests.CanvasCommandTests.CreateCanvas
+  isSpec: "True"
+  fullName: BOOSETests.CanvasCommandTests.CreateCanvas
+  nameWithType: CanvasCommandTests.CreateCanvas
+- uid: BOOSETests.CanvasCommandTests.DrawTo_Sets_PenPosition_Correctly
+  name: DrawTo_Sets_PenPosition_Correctly()
+  href: api/BOOSETests.CanvasCommandTests.html#BOOSETests_CanvasCommandTests_DrawTo_Sets_PenPosition_Correctly
+  commentId: M:BOOSETests.CanvasCommandTests.DrawTo_Sets_PenPosition_Correctly
+  fullName: BOOSETests.CanvasCommandTests.DrawTo_Sets_PenPosition_Correctly()
+  nameWithType: CanvasCommandTests.DrawTo_Sets_PenPosition_Correctly()
+- uid: BOOSETests.CanvasCommandTests.DrawTo_Sets_PenPosition_Correctly*
+  name: DrawTo_Sets_PenPosition_Correctly
+  href: api/BOOSETests.CanvasCommandTests.html#BOOSETests_CanvasCommandTests_DrawTo_Sets_PenPosition_Correctly_
+  commentId: Overload:BOOSETests.CanvasCommandTests.DrawTo_Sets_PenPosition_Correctly
+  isSpec: "True"
+  fullName: BOOSETests.CanvasCommandTests.DrawTo_Sets_PenPosition_Correctly
+  nameWithType: CanvasCommandTests.DrawTo_Sets_PenPosition_Correctly
+- uid: BOOSETests.CanvasCommandTests.MoveTo_Sets_PenPosition_Correctly
+  name: MoveTo_Sets_PenPosition_Correctly()
+  href: api/BOOSETests.CanvasCommandTests.html#BOOSETests_CanvasCommandTests_MoveTo_Sets_PenPosition_Correctly
+  commentId: M:BOOSETests.CanvasCommandTests.MoveTo_Sets_PenPosition_Correctly
+  fullName: BOOSETests.CanvasCommandTests.MoveTo_Sets_PenPosition_Correctly()
+  nameWithType: CanvasCommandTests.MoveTo_Sets_PenPosition_Correctly()
+- uid: BOOSETests.CanvasCommandTests.MoveTo_Sets_PenPosition_Correctly*
+  name: MoveTo_Sets_PenPosition_Correctly
+  href: api/BOOSETests.CanvasCommandTests.html#BOOSETests_CanvasCommandTests_MoveTo_Sets_PenPosition_Correctly_
+  commentId: Overload:BOOSETests.CanvasCommandTests.MoveTo_Sets_PenPosition_Correctly
+  isSpec: "True"
+  fullName: BOOSETests.CanvasCommandTests.MoveTo_Sets_PenPosition_Correctly
+  nameWithType: CanvasCommandTests.MoveTo_Sets_PenPosition_Correctly
+- uid: BOOSETests.CanvasCommandTests.MultilineSequence_Executes_Commands_And_UpdatesState
+  name: MultilineSequence_Executes_Commands_And_UpdatesState()
+  href: api/BOOSETests.CanvasCommandTests.html#BOOSETests_CanvasCommandTests_MultilineSequence_Executes_Commands_And_UpdatesState
+  commentId: M:BOOSETests.CanvasCommandTests.MultilineSequence_Executes_Commands_And_UpdatesState
+  fullName: BOOSETests.CanvasCommandTests.MultilineSequence_Executes_Commands_And_UpdatesState()
+  nameWithType: CanvasCommandTests.MultilineSequence_Executes_Commands_And_UpdatesState()
+- uid: BOOSETests.CanvasCommandTests.MultilineSequence_Executes_Commands_And_UpdatesState*
+  name: MultilineSequence_Executes_Commands_And_UpdatesState
+  href: api/BOOSETests.CanvasCommandTests.html#BOOSETests_CanvasCommandTests_MultilineSequence_Executes_Commands_And_UpdatesState_
+  commentId: Overload:BOOSETests.CanvasCommandTests.MultilineSequence_Executes_Commands_And_UpdatesState
+  isSpec: "True"
+  fullName: BOOSETests.CanvasCommandTests.MultilineSequence_Executes_Commands_And_UpdatesState
+  nameWithType: CanvasCommandTests.MultilineSequence_Executes_Commands_And_UpdatesState
+- uid: BOOSEproject
+  name: BOOSEproject
+  href: api/BOOSEproject.html
+  commentId: N:BOOSEproject
+  fullName: BOOSEproject
+  nameWithType: BOOSEproject
+- uid: BOOSEproject.AppCircle
+  name: AppCircle
+  href: api/BOOSEproject.AppCircle.html
+  commentId: T:BOOSEproject.AppCircle
+  fullName: BOOSEproject.AppCircle
+  nameWithType: AppCircle
+- uid: BOOSEproject.AppCircle.#ctor
+  name: AppCircle()
+  href: api/BOOSEproject.AppCircle.html#BOOSEproject_AppCircle__ctor
+  commentId: M:BOOSEproject.AppCircle.#ctor
+  name.vb: New()
+  fullName: BOOSEproject.AppCircle.AppCircle()
+  fullName.vb: BOOSEproject.AppCircle.New()
+  nameWithType: AppCircle.AppCircle()
+  nameWithType.vb: AppCircle.New()
+- uid: BOOSEproject.AppCircle.#ctor(BOOSE.Canvas,System.Int32)
+  name: AppCircle(Canvas, int)
+  href: api/BOOSEproject.AppCircle.html#BOOSEproject_AppCircle__ctor_BOOSE_Canvas_System_Int32_
+  commentId: M:BOOSEproject.AppCircle.#ctor(BOOSE.Canvas,System.Int32)
+  name.vb: New(Canvas, Integer)
+  fullName: BOOSEproject.AppCircle.AppCircle(BOOSE.Canvas, int)
+  fullName.vb: BOOSEproject.AppCircle.New(BOOSE.Canvas, Integer)
+  nameWithType: AppCircle.AppCircle(Canvas, int)
+  nameWithType.vb: AppCircle.New(Canvas, Integer)
+- uid: BOOSEproject.AppCircle.#ctor*
+  name: AppCircle
+  href: api/BOOSEproject.AppCircle.html#BOOSEproject_AppCircle__ctor_
+  commentId: Overload:BOOSEproject.AppCircle.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSEproject.AppCircle.AppCircle
+  fullName.vb: BOOSEproject.AppCircle.New
+  nameWithType: AppCircle.AppCircle
+  nameWithType.vb: AppCircle.New
+- uid: BOOSEproject.AppCircle.Execute
+  name: Execute()
+  href: api/BOOSEproject.AppCircle.html#BOOSEproject_AppCircle_Execute
+  commentId: M:BOOSEproject.AppCircle.Execute
+  fullName: BOOSEproject.AppCircle.Execute()
+  nameWithType: AppCircle.Execute()
+- uid: BOOSEproject.AppCircle.Execute*
+  name: Execute
+  href: api/BOOSEproject.AppCircle.html#BOOSEproject_AppCircle_Execute_
+  commentId: Overload:BOOSEproject.AppCircle.Execute
+  isSpec: "True"
+  fullName: BOOSEproject.AppCircle.Execute
+  nameWithType: AppCircle.Execute
+- uid: BOOSEproject.AppCircle.radius
+  name: radius
+  href: api/BOOSEproject.AppCircle.html#BOOSEproject_AppCircle_radius
+  commentId: F:BOOSEproject.AppCircle.radius
+  fullName: BOOSEproject.AppCircle.radius
+  nameWithType: AppCircle.radius
+- uid: BOOSEproject.AppCommandFactory
+  name: AppCommandFactory
+  href: api/BOOSEproject.AppCommandFactory.html
+  commentId: T:BOOSEproject.AppCommandFactory
+  fullName: BOOSEproject.AppCommandFactory
+  nameWithType: AppCommandFactory
+- uid: BOOSEproject.AppCommandFactory.MakeCommand(System.String)
+  name: MakeCommand(string)
+  href: api/BOOSEproject.AppCommandFactory.html#BOOSEproject_AppCommandFactory_MakeCommand_System_String_
+  commentId: M:BOOSEproject.AppCommandFactory.MakeCommand(System.String)
+  name.vb: MakeCommand(String)
+  fullName: BOOSEproject.AppCommandFactory.MakeCommand(string)
+  fullName.vb: BOOSEproject.AppCommandFactory.MakeCommand(String)
+  nameWithType: AppCommandFactory.MakeCommand(string)
+  nameWithType.vb: AppCommandFactory.MakeCommand(String)
+- uid: BOOSEproject.AppCommandFactory.MakeCommand*
+  name: MakeCommand
+  href: api/BOOSEproject.AppCommandFactory.html#BOOSEproject_AppCommandFactory_MakeCommand_
+  commentId: Overload:BOOSEproject.AppCommandFactory.MakeCommand
+  isSpec: "True"
+  fullName: BOOSEproject.AppCommandFactory.MakeCommand
+  nameWithType: AppCommandFactory.MakeCommand
+- uid: BOOSEproject.AppMoveTo
+  name: AppMoveTo
+  href: api/BOOSEproject.AppMoveTo.html
+  commentId: T:BOOSEproject.AppMoveTo
+  fullName: BOOSEproject.AppMoveTo
+  nameWithType: AppMoveTo
+- uid: BOOSEproject.AppMoveTo.#ctor
+  name: AppMoveTo()
+  href: api/BOOSEproject.AppMoveTo.html#BOOSEproject_AppMoveTo__ctor
+  commentId: M:BOOSEproject.AppMoveTo.#ctor
+  name.vb: New()
+  fullName: BOOSEproject.AppMoveTo.AppMoveTo()
+  fullName.vb: BOOSEproject.AppMoveTo.New()
+  nameWithType: AppMoveTo.AppMoveTo()
+  nameWithType.vb: AppMoveTo.New()
+- uid: BOOSEproject.AppMoveTo.#ctor(System.Int32,System.Int32)
+  name: AppMoveTo(int, int)
+  href: api/BOOSEproject.AppMoveTo.html#BOOSEproject_AppMoveTo__ctor_System_Int32_System_Int32_
+  commentId: M:BOOSEproject.AppMoveTo.#ctor(System.Int32,System.Int32)
+  name.vb: New(Integer, Integer)
+  fullName: BOOSEproject.AppMoveTo.AppMoveTo(int, int)
+  fullName.vb: BOOSEproject.AppMoveTo.New(Integer, Integer)
+  nameWithType: AppMoveTo.AppMoveTo(int, int)
+  nameWithType.vb: AppMoveTo.New(Integer, Integer)
+- uid: BOOSEproject.AppMoveTo.#ctor*
+  name: AppMoveTo
+  href: api/BOOSEproject.AppMoveTo.html#BOOSEproject_AppMoveTo__ctor_
+  commentId: Overload:BOOSEproject.AppMoveTo.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSEproject.AppMoveTo.AppMoveTo
+  fullName.vb: BOOSEproject.AppMoveTo.New
+  nameWithType: AppMoveTo.AppMoveTo
+  nameWithType.vb: AppMoveTo.New
+- uid: BOOSEproject.AppMoveTo.Execute
+  name: Execute()
+  href: api/BOOSEproject.AppMoveTo.html#BOOSEproject_AppMoveTo_Execute
+  commentId: M:BOOSEproject.AppMoveTo.Execute
+  fullName: BOOSEproject.AppMoveTo.Execute()
+  nameWithType: AppMoveTo.Execute()
+- uid: BOOSEproject.AppMoveTo.Execute*
+  name: Execute
+  href: api/BOOSEproject.AppMoveTo.html#BOOSEproject_AppMoveTo_Execute_
+  commentId: Overload:BOOSEproject.AppMoveTo.Execute
+  isSpec: "True"
+  fullName: BOOSEproject.AppMoveTo.Execute
+  nameWithType: AppMoveTo.Execute
+- uid: BOOSEproject.AppMoveTo.X
+  name: X
+  href: api/BOOSEproject.AppMoveTo.html#BOOSEproject_AppMoveTo_X
+  commentId: F:BOOSEproject.AppMoveTo.X
+  fullName: BOOSEproject.AppMoveTo.X
+  nameWithType: AppMoveTo.X
+- uid: BOOSEproject.AppMoveTo.Y
+  name: Y
+  href: api/BOOSEproject.AppMoveTo.html#BOOSEproject_AppMoveTo_Y
+  commentId: F:BOOSEproject.AppMoveTo.Y
+  fullName: BOOSEproject.AppMoveTo.Y
+  nameWithType: AppMoveTo.Y
+- uid: BOOSEproject.AppRectangle
+  name: AppRectangle
+  href: api/BOOSEproject.AppRectangle.html
+  commentId: T:BOOSEproject.AppRectangle
+  fullName: BOOSEproject.AppRectangle
+  nameWithType: AppRectangle
+- uid: BOOSEproject.AppRectangle.#ctor
+  name: AppRectangle()
+  href: api/BOOSEproject.AppRectangle.html#BOOSEproject_AppRectangle__ctor
+  commentId: M:BOOSEproject.AppRectangle.#ctor
+  name.vb: New()
+  fullName: BOOSEproject.AppRectangle.AppRectangle()
+  fullName.vb: BOOSEproject.AppRectangle.New()
+  nameWithType: AppRectangle.AppRectangle()
+  nameWithType.vb: AppRectangle.New()
+- uid: BOOSEproject.AppRectangle.#ctor(BOOSE.Canvas,System.Int32,System.Int32)
+  name: AppRectangle(Canvas, int, int)
+  href: api/BOOSEproject.AppRectangle.html#BOOSEproject_AppRectangle__ctor_BOOSE_Canvas_System_Int32_System_Int32_
+  commentId: M:BOOSEproject.AppRectangle.#ctor(BOOSE.Canvas,System.Int32,System.Int32)
+  name.vb: New(Canvas, Integer, Integer)
+  fullName: BOOSEproject.AppRectangle.AppRectangle(BOOSE.Canvas, int, int)
+  fullName.vb: BOOSEproject.AppRectangle.New(BOOSE.Canvas, Integer, Integer)
+  nameWithType: AppRectangle.AppRectangle(Canvas, int, int)
+  nameWithType.vb: AppRectangle.New(Canvas, Integer, Integer)
+- uid: BOOSEproject.AppRectangle.#ctor*
+  name: AppRectangle
+  href: api/BOOSEproject.AppRectangle.html#BOOSEproject_AppRectangle__ctor_
+  commentId: Overload:BOOSEproject.AppRectangle.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSEproject.AppRectangle.AppRectangle
+  fullName.vb: BOOSEproject.AppRectangle.New
+  nameWithType: AppRectangle.AppRectangle
+  nameWithType.vb: AppRectangle.New
+- uid: BOOSEproject.AppRectangle.Execute
+  name: Execute()
+  href: api/BOOSEproject.AppRectangle.html#BOOSEproject_AppRectangle_Execute
+  commentId: M:BOOSEproject.AppRectangle.Execute
+  fullName: BOOSEproject.AppRectangle.Execute()
+  nameWithType: AppRectangle.Execute()
+- uid: BOOSEproject.AppRectangle.Execute*
+  name: Execute
+  href: api/BOOSEproject.AppRectangle.html#BOOSEproject_AppRectangle_Execute_
+  commentId: Overload:BOOSEproject.AppRectangle.Execute
+  isSpec: "True"
+  fullName: BOOSEproject.AppRectangle.Execute
+  nameWithType: AppRectangle.Execute
+- uid: BOOSEproject.AppRectangle.height
+  name: height
+  href: api/BOOSEproject.AppRectangle.html#BOOSEproject_AppRectangle_height
+  commentId: F:BOOSEproject.AppRectangle.height
+  fullName: BOOSEproject.AppRectangle.height
+  nameWithType: AppRectangle.height
+- uid: BOOSEproject.AppRectangle.width
+  name: width
+  href: api/BOOSEproject.AppRectangle.html#BOOSEproject_AppRectangle_width
+  commentId: F:BOOSEproject.AppRectangle.width
+  fullName: BOOSEproject.AppRectangle.width
+  nameWithType: AppRectangle.width
+- uid: BOOSEproject.ApplicationConfiguration
+  name: ApplicationConfiguration
+  href: api/BOOSEproject.ApplicationConfiguration.html
+  commentId: T:BOOSEproject.ApplicationConfiguration
+  fullName: BOOSEproject.ApplicationConfiguration
+  nameWithType: ApplicationConfiguration
+- uid: BOOSEproject.ApplicationConfiguration.Initialize
+  name: Initialize()
+  href: api/BOOSEproject.ApplicationConfiguration.html#BOOSEproject_ApplicationConfiguration_Initialize
+  commentId: M:BOOSEproject.ApplicationConfiguration.Initialize
+  fullName: BOOSEproject.ApplicationConfiguration.Initialize()
+  nameWithType: ApplicationConfiguration.Initialize()
+- uid: BOOSEproject.ApplicationConfiguration.Initialize*
+  name: Initialize
+  href: api/BOOSEproject.ApplicationConfiguration.html#BOOSEproject_ApplicationConfiguration_Initialize_
+  commentId: Overload:BOOSEproject.ApplicationConfiguration.Initialize
+  isSpec: "True"
+  fullName: BOOSEproject.ApplicationConfiguration.Initialize
+  nameWithType: ApplicationConfiguration.Initialize
+- uid: BOOSEproject.Form1
+  name: Form1
+  href: api/BOOSEproject.Form1.html
+  commentId: T:BOOSEproject.Form1
+  fullName: BOOSEproject.Form1
+  nameWithType: Form1
+- uid: BOOSEproject.Form1.#ctor
+  name: Form1()
+  href: api/BOOSEproject.Form1.html#BOOSEproject_Form1__ctor
+  commentId: M:BOOSEproject.Form1.#ctor
+  name.vb: New()
+  fullName: BOOSEproject.Form1.Form1()
+  fullName.vb: BOOSEproject.Form1.New()
+  nameWithType: Form1.Form1()
+  nameWithType.vb: Form1.New()
+- uid: BOOSEproject.Form1.#ctor*
+  name: Form1
+  href: api/BOOSEproject.Form1.html#BOOSEproject_Form1__ctor_
+  commentId: Overload:BOOSEproject.Form1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSEproject.Form1.Form1
+  fullName.vb: BOOSEproject.Form1.New
+  nameWithType: Form1.Form1
+  nameWithType.vb: Form1.New
+- uid: BOOSEproject.Form1.BTN_Run
+  name: BTN_Run
+  href: api/BOOSEproject.Form1.html#BOOSEproject_Form1_BTN_Run
+  commentId: F:BOOSEproject.Form1.BTN_Run
+  fullName: BOOSEproject.Form1.BTN_Run
+  nameWithType: Form1.BTN_Run
+- uid: BOOSEproject.Form1.BTN_Run_Click(System.Object,System.EventArgs)
+  name: BTN_Run_Click(object, EventArgs)
+  href: api/BOOSEproject.Form1.html#BOOSEproject_Form1_BTN_Run_Click_System_Object_System_EventArgs_
+  commentId: M:BOOSEproject.Form1.BTN_Run_Click(System.Object,System.EventArgs)
+  name.vb: BTN_Run_Click(Object, EventArgs)
+  fullName: BOOSEproject.Form1.BTN_Run_Click(object, System.EventArgs)
+  fullName.vb: BOOSEproject.Form1.BTN_Run_Click(Object, System.EventArgs)
+  nameWithType: Form1.BTN_Run_Click(object, EventArgs)
+  nameWithType.vb: Form1.BTN_Run_Click(Object, EventArgs)
+- uid: BOOSEproject.Form1.BTN_Run_Click*
+  name: BTN_Run_Click
+  href: api/BOOSEproject.Form1.html#BOOSEproject_Form1_BTN_Run_Click_
+  commentId: Overload:BOOSEproject.Form1.BTN_Run_Click
+  isSpec: "True"
+  fullName: BOOSEproject.Form1.BTN_Run_Click
+  nameWithType: Form1.BTN_Run_Click
+- uid: BOOSEproject.Form1.Dispose(System.Boolean)
+  name: Dispose(bool)
+  href: api/BOOSEproject.Form1.html#BOOSEproject_Form1_Dispose_System_Boolean_
+  commentId: M:BOOSEproject.Form1.Dispose(System.Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: BOOSEproject.Form1.Dispose(bool)
+  fullName.vb: BOOSEproject.Form1.Dispose(Boolean)
+  nameWithType: Form1.Dispose(bool)
+  nameWithType.vb: Form1.Dispose(Boolean)
+- uid: BOOSEproject.Form1.Dispose*
+  name: Dispose
+  href: api/BOOSEproject.Form1.html#BOOSEproject_Form1_Dispose_
+  commentId: Overload:BOOSEproject.Form1.Dispose
+  isSpec: "True"
+  fullName: BOOSEproject.Form1.Dispose
+  nameWithType: Form1.Dispose
+- uid: BOOSEproject.Form1.Factory
+  name: Factory
+  href: api/BOOSEproject.Form1.html#BOOSEproject_Form1_Factory
+  commentId: F:BOOSEproject.Form1.Factory
+  fullName: BOOSEproject.Form1.Factory
+  nameWithType: Form1.Factory
+- uid: BOOSEproject.Form1.Form1_Load(System.Object,System.EventArgs)
+  name: Form1_Load(object, EventArgs)
+  href: api/BOOSEproject.Form1.html#BOOSEproject_Form1_Form1_Load_System_Object_System_EventArgs_
+  commentId: M:BOOSEproject.Form1.Form1_Load(System.Object,System.EventArgs)
+  name.vb: Form1_Load(Object, EventArgs)
+  fullName: BOOSEproject.Form1.Form1_Load(object, System.EventArgs)
+  fullName.vb: BOOSEproject.Form1.Form1_Load(Object, System.EventArgs)
+  nameWithType: Form1.Form1_Load(object, EventArgs)
+  nameWithType.vb: Form1.Form1_Load(Object, EventArgs)
+- uid: BOOSEproject.Form1.Form1_Load*
+  name: Form1_Load
+  href: api/BOOSEproject.Form1.html#BOOSEproject_Form1_Form1_Load_
+  commentId: Overload:BOOSEproject.Form1.Form1_Load
+  isSpec: "True"
+  fullName: BOOSEproject.Form1.Form1_Load
+  nameWithType: Form1.Form1_Load
+- uid: BOOSEproject.Form1.Form1_Paint(System.Object,System.Windows.Forms.PaintEventArgs)
+  name: Form1_Paint(object, PaintEventArgs)
+  href: api/BOOSEproject.Form1.html#BOOSEproject_Form1_Form1_Paint_System_Object_System_Windows_Forms_PaintEventArgs_
+  commentId: M:BOOSEproject.Form1.Form1_Paint(System.Object,System.Windows.Forms.PaintEventArgs)
+  name.vb: Form1_Paint(Object, PaintEventArgs)
+  fullName: BOOSEproject.Form1.Form1_Paint(object, System.Windows.Forms.PaintEventArgs)
+  fullName.vb: BOOSEproject.Form1.Form1_Paint(Object, System.Windows.Forms.PaintEventArgs)
+  nameWithType: Form1.Form1_Paint(object, PaintEventArgs)
+  nameWithType.vb: Form1.Form1_Paint(Object, PaintEventArgs)
+- uid: BOOSEproject.Form1.Form1_Paint*
+  name: Form1_Paint
+  href: api/BOOSEproject.Form1.html#BOOSEproject_Form1_Form1_Paint_
+  commentId: Overload:BOOSEproject.Form1.Form1_Paint
+  isSpec: "True"
+  fullName: BOOSEproject.Form1.Form1_Paint
+  nameWithType: Form1.Form1_Paint
+- uid: BOOSEproject.Form1.InitializeComponent
+  name: InitializeComponent()
+  href: api/BOOSEproject.Form1.html#BOOSEproject_Form1_InitializeComponent
+  commentId: M:BOOSEproject.Form1.InitializeComponent
+  fullName: BOOSEproject.Form1.InitializeComponent()
+  nameWithType: Form1.InitializeComponent()
+- uid: BOOSEproject.Form1.InitializeComponent*
+  name: InitializeComponent
+  href: api/BOOSEproject.Form1.html#BOOSEproject_Form1_InitializeComponent_
+  commentId: Overload:BOOSEproject.Form1.InitializeComponent
+  isSpec: "True"
+  fullName: BOOSEproject.Form1.InitializeComponent
+  nameWithType: Form1.InitializeComponent
+- uid: BOOSEproject.Form1.OutputTextBox_TextChanged(System.Object,System.EventArgs)
+  name: OutputTextBox_TextChanged(object, EventArgs)
+  href: api/BOOSEproject.Form1.html#BOOSEproject_Form1_OutputTextBox_TextChanged_System_Object_System_EventArgs_
+  commentId: M:BOOSEproject.Form1.OutputTextBox_TextChanged(System.Object,System.EventArgs)
+  name.vb: OutputTextBox_TextChanged(Object, EventArgs)
+  fullName: BOOSEproject.Form1.OutputTextBox_TextChanged(object, System.EventArgs)
+  fullName.vb: BOOSEproject.Form1.OutputTextBox_TextChanged(Object, System.EventArgs)
+  nameWithType: Form1.OutputTextBox_TextChanged(object, EventArgs)
+  nameWithType.vb: Form1.OutputTextBox_TextChanged(Object, EventArgs)
+- uid: BOOSEproject.Form1.OutputTextBox_TextChanged*
+  name: OutputTextBox_TextChanged
+  href: api/BOOSEproject.Form1.html#BOOSEproject_Form1_OutputTextBox_TextChanged_
+  commentId: Overload:BOOSEproject.Form1.OutputTextBox_TextChanged
+  isSpec: "True"
+  fullName: BOOSEproject.Form1.OutputTextBox_TextChanged
+  nameWithType: Form1.OutputTextBox_TextChanged
+- uid: BOOSEproject.Form1.PCT_OutputImage
+  name: PCT_OutputImage
+  href: api/BOOSEproject.Form1.html#BOOSEproject_Form1_PCT_OutputImage
+  commentId: F:BOOSEproject.Form1.PCT_OutputImage
+  fullName: BOOSEproject.Form1.PCT_OutputImage
+  nameWithType: Form1.PCT_OutputImage
+- uid: BOOSEproject.Form1.Parser
+  name: Parser
+  href: api/BOOSEproject.Form1.html#BOOSEproject_Form1_Parser
+  commentId: F:BOOSEproject.Form1.Parser
+  fullName: BOOSEproject.Form1.Parser
+  nameWithType: Form1.Parser
+- uid: BOOSEproject.Form1.Program
+  name: Program
+  href: api/BOOSEproject.Form1.html#BOOSEproject_Form1_Program
+  commentId: F:BOOSEproject.Form1.Program
+  fullName: BOOSEproject.Form1.Program
+  nameWithType: Form1.Program
+- uid: BOOSEproject.Form1.TXT_InputBox
+  name: TXT_InputBox
+  href: api/BOOSEproject.Form1.html#BOOSEproject_Form1_TXT_InputBox
+  commentId: F:BOOSEproject.Form1.TXT_InputBox
+  fullName: BOOSEproject.Form1.TXT_InputBox
+  nameWithType: Form1.TXT_InputBox
+- uid: BOOSEproject.Form1.TXT_OutputBox
+  name: TXT_OutputBox
+  href: api/BOOSEproject.Form1.html#BOOSEproject_Form1_TXT_OutputBox
+  commentId: F:BOOSEproject.Form1.TXT_OutputBox
+  fullName: BOOSEproject.Form1.TXT_OutputBox
+  nameWithType: Form1.TXT_OutputBox
+- uid: BOOSEproject.Form1.WriteOutput(System.String)
+  name: WriteOutput(string)
+  href: api/BOOSEproject.Form1.html#BOOSEproject_Form1_WriteOutput_System_String_
+  commentId: M:BOOSEproject.Form1.WriteOutput(System.String)
+  name.vb: WriteOutput(String)
+  fullName: BOOSEproject.Form1.WriteOutput(string)
+  fullName.vb: BOOSEproject.Form1.WriteOutput(String)
+  nameWithType: Form1.WriteOutput(string)
+  nameWithType.vb: Form1.WriteOutput(String)
+- uid: BOOSEproject.Form1.WriteOutput*
+  name: WriteOutput
+  href: api/BOOSEproject.Form1.html#BOOSEproject_Form1_WriteOutput_
+  commentId: Overload:BOOSEproject.Form1.WriteOutput
+  isSpec: "True"
+  fullName: BOOSEproject.Form1.WriteOutput
+  nameWithType: Form1.WriteOutput
+- uid: BOOSEproject.Form1.canvas
+  name: canvas
+  href: api/BOOSEproject.Form1.html#BOOSEproject_Form1_canvas
+  commentId: F:BOOSEproject.Form1.canvas
+  fullName: BOOSEproject.Form1.canvas
+  nameWithType: Form1.canvas
+- uid: BOOSEproject.Form1.components
+  name: components
+  href: api/BOOSEproject.Form1.html#BOOSEproject_Form1_components
+  commentId: F:BOOSEproject.Form1.components
+  fullName: BOOSEproject.Form1.components
+  nameWithType: Form1.components
+- uid: BOOSEproject.IAppCanvas
+  name: IAppCanvas
+  href: api/BOOSEproject.IAppCanvas.html
+  commentId: T:BOOSEproject.IAppCanvas
+  fullName: BOOSEproject.IAppCanvas
+  nameWithType: IAppCanvas
+- uid: BOOSEproject.IAppCanvas.#ctor(System.Int32,System.Int32)
+  name: IAppCanvas(int, int)
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas__ctor_System_Int32_System_Int32_
+  commentId: M:BOOSEproject.IAppCanvas.#ctor(System.Int32,System.Int32)
+  name.vb: New(Integer, Integer)
+  fullName: BOOSEproject.IAppCanvas.IAppCanvas(int, int)
+  fullName.vb: BOOSEproject.IAppCanvas.New(Integer, Integer)
+  nameWithType: IAppCanvas.IAppCanvas(int, int)
+  nameWithType.vb: IAppCanvas.New(Integer, Integer)
+- uid: BOOSEproject.IAppCanvas.#ctor*
+  name: IAppCanvas
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas__ctor_
+  commentId: Overload:BOOSEproject.IAppCanvas.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSEproject.IAppCanvas.IAppCanvas
+  fullName.vb: BOOSEproject.IAppCanvas.New
+  nameWithType: IAppCanvas.IAppCanvas
+  nameWithType.vb: IAppCanvas.New
+- uid: BOOSEproject.IAppCanvas.CanvasBitmap
+  name: CanvasBitmap
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_CanvasBitmap
+  commentId: F:BOOSEproject.IAppCanvas.CanvasBitmap
+  fullName: BOOSEproject.IAppCanvas.CanvasBitmap
+  nameWithType: IAppCanvas.CanvasBitmap
+- uid: BOOSEproject.IAppCanvas.Circle(System.Int32,System.Boolean)
+  name: Circle(int, bool)
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_Circle_System_Int32_System_Boolean_
+  commentId: M:BOOSEproject.IAppCanvas.Circle(System.Int32,System.Boolean)
+  name.vb: Circle(Integer, Boolean)
+  fullName: BOOSEproject.IAppCanvas.Circle(int, bool)
+  fullName.vb: BOOSEproject.IAppCanvas.Circle(Integer, Boolean)
+  nameWithType: IAppCanvas.Circle(int, bool)
+  nameWithType.vb: IAppCanvas.Circle(Integer, Boolean)
+- uid: BOOSEproject.IAppCanvas.Circle*
+  name: Circle
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_Circle_
+  commentId: Overload:BOOSEproject.IAppCanvas.Circle
+  isSpec: "True"
+  fullName: BOOSEproject.IAppCanvas.Circle
+  nameWithType: IAppCanvas.Circle
+- uid: BOOSEproject.IAppCanvas.Clear
+  name: Clear()
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_Clear
+  commentId: M:BOOSEproject.IAppCanvas.Clear
+  fullName: BOOSEproject.IAppCanvas.Clear()
+  nameWithType: IAppCanvas.Clear()
+- uid: BOOSEproject.IAppCanvas.Clear*
+  name: Clear
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_Clear_
+  commentId: Overload:BOOSEproject.IAppCanvas.Clear
+  isSpec: "True"
+  fullName: BOOSEproject.IAppCanvas.Clear
+  nameWithType: IAppCanvas.Clear
+- uid: BOOSEproject.IAppCanvas.DrawTo(System.Int32,System.Int32)
+  name: DrawTo(int, int)
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_DrawTo_System_Int32_System_Int32_
+  commentId: M:BOOSEproject.IAppCanvas.DrawTo(System.Int32,System.Int32)
+  name.vb: DrawTo(Integer, Integer)
+  fullName: BOOSEproject.IAppCanvas.DrawTo(int, int)
+  fullName.vb: BOOSEproject.IAppCanvas.DrawTo(Integer, Integer)
+  nameWithType: IAppCanvas.DrawTo(int, int)
+  nameWithType.vb: IAppCanvas.DrawTo(Integer, Integer)
+- uid: BOOSEproject.IAppCanvas.DrawTo*
+  name: DrawTo
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_DrawTo_
+  commentId: Overload:BOOSEproject.IAppCanvas.DrawTo
+  isSpec: "True"
+  fullName: BOOSEproject.IAppCanvas.DrawTo
+  nameWithType: IAppCanvas.DrawTo
+- uid: BOOSEproject.IAppCanvas.IParser
+  name: IParser()
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_IParser
+  commentId: M:BOOSEproject.IAppCanvas.IParser
+  fullName: BOOSEproject.IAppCanvas.IParser()
+  nameWithType: IAppCanvas.IParser()
+- uid: BOOSEproject.IAppCanvas.IParser*
+  name: IParser
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_IParser_
+  commentId: Overload:BOOSEproject.IAppCanvas.IParser
+  isSpec: "True"
+  fullName: BOOSEproject.IAppCanvas.IParser
+  nameWithType: IAppCanvas.IParser
+- uid: BOOSEproject.IAppCanvas.MoveTo(System.Int32,System.Int32)
+  name: MoveTo(int, int)
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_MoveTo_System_Int32_System_Int32_
+  commentId: M:BOOSEproject.IAppCanvas.MoveTo(System.Int32,System.Int32)
+  name.vb: MoveTo(Integer, Integer)
+  fullName: BOOSEproject.IAppCanvas.MoveTo(int, int)
+  fullName.vb: BOOSEproject.IAppCanvas.MoveTo(Integer, Integer)
+  nameWithType: IAppCanvas.MoveTo(int, int)
+  nameWithType.vb: IAppCanvas.MoveTo(Integer, Integer)
+- uid: BOOSEproject.IAppCanvas.MoveTo*
+  name: MoveTo
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_MoveTo_
+  commentId: Overload:BOOSEproject.IAppCanvas.MoveTo
+  isSpec: "True"
+  fullName: BOOSEproject.IAppCanvas.MoveTo
+  nameWithType: IAppCanvas.MoveTo
+- uid: BOOSEproject.IAppCanvas.Pen
+  name: Pen
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_Pen
+  commentId: F:BOOSEproject.IAppCanvas.Pen
+  fullName: BOOSEproject.IAppCanvas.Pen
+  nameWithType: IAppCanvas.Pen
+- uid: BOOSEproject.IAppCanvas.PenColour
+  name: PenColour
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_PenColour
+  commentId: P:BOOSEproject.IAppCanvas.PenColour
+  fullName: BOOSEproject.IAppCanvas.PenColour
+  nameWithType: IAppCanvas.PenColour
+- uid: BOOSEproject.IAppCanvas.PenColour*
+  name: PenColour
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_PenColour_
+  commentId: Overload:BOOSEproject.IAppCanvas.PenColour
+  isSpec: "True"
+  fullName: BOOSEproject.IAppCanvas.PenColour
+  nameWithType: IAppCanvas.PenColour
+- uid: BOOSEproject.IAppCanvas.Program(System.String,BOOSE.ICanvas)
+  name: Program(string, ICanvas)
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_Program_System_String_BOOSE_ICanvas_
+  commentId: M:BOOSEproject.IAppCanvas.Program(System.String,BOOSE.ICanvas)
+  name.vb: Program(String, ICanvas)
+  fullName: BOOSEproject.IAppCanvas.Program(string, BOOSE.ICanvas)
+  fullName.vb: BOOSEproject.IAppCanvas.Program(String, BOOSE.ICanvas)
+  nameWithType: IAppCanvas.Program(string, ICanvas)
+  nameWithType.vb: IAppCanvas.Program(String, ICanvas)
+- uid: BOOSEproject.IAppCanvas.Program*
+  name: Program
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_Program_
+  commentId: Overload:BOOSEproject.IAppCanvas.Program
+  isSpec: "True"
+  fullName: BOOSEproject.IAppCanvas.Program
+  nameWithType: IAppCanvas.Program
+- uid: BOOSEproject.IAppCanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  name: Rect(int, int, bool)
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_Rect_System_Int32_System_Int32_System_Boolean_
+  commentId: M:BOOSEproject.IAppCanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  name.vb: Rect(Integer, Integer, Boolean)
+  fullName: BOOSEproject.IAppCanvas.Rect(int, int, bool)
+  fullName.vb: BOOSEproject.IAppCanvas.Rect(Integer, Integer, Boolean)
+  nameWithType: IAppCanvas.Rect(int, int, bool)
+  nameWithType.vb: IAppCanvas.Rect(Integer, Integer, Boolean)
+- uid: BOOSEproject.IAppCanvas.Rect*
+  name: Rect
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_Rect_
+  commentId: Overload:BOOSEproject.IAppCanvas.Rect
+  isSpec: "True"
+  fullName: BOOSEproject.IAppCanvas.Rect
+  nameWithType: IAppCanvas.Rect
+- uid: BOOSEproject.IAppCanvas.Reset
+  name: Reset()
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_Reset
+  commentId: M:BOOSEproject.IAppCanvas.Reset
+  fullName: BOOSEproject.IAppCanvas.Reset()
+  nameWithType: IAppCanvas.Reset()
+- uid: BOOSEproject.IAppCanvas.Reset*
+  name: Reset
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_Reset_
+  commentId: Overload:BOOSEproject.IAppCanvas.Reset
+  isSpec: "True"
+  fullName: BOOSEproject.IAppCanvas.Reset
+  nameWithType: IAppCanvas.Reset
+- uid: BOOSEproject.IAppCanvas.Set(System.Int32,System.Int32)
+  name: Set(int, int)
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_Set_System_Int32_System_Int32_
+  commentId: M:BOOSEproject.IAppCanvas.Set(System.Int32,System.Int32)
+  name.vb: Set(Integer, Integer)
+  fullName: BOOSEproject.IAppCanvas.Set(int, int)
+  fullName.vb: BOOSEproject.IAppCanvas.Set(Integer, Integer)
+  nameWithType: IAppCanvas.Set(int, int)
+  nameWithType.vb: IAppCanvas.Set(Integer, Integer)
+- uid: BOOSEproject.IAppCanvas.Set*
+  name: Set
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_Set_
+  commentId: Overload:BOOSEproject.IAppCanvas.Set
+  isSpec: "True"
+  fullName: BOOSEproject.IAppCanvas.Set
+  nameWithType: IAppCanvas.Set
+- uid: BOOSEproject.IAppCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  name: SetColour(int, int, int)
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_SetColour_System_Int32_System_Int32_System_Int32_
+  commentId: M:BOOSEproject.IAppCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  name.vb: SetColour(Integer, Integer, Integer)
+  fullName: BOOSEproject.IAppCanvas.SetColour(int, int, int)
+  fullName.vb: BOOSEproject.IAppCanvas.SetColour(Integer, Integer, Integer)
+  nameWithType: IAppCanvas.SetColour(int, int, int)
+  nameWithType.vb: IAppCanvas.SetColour(Integer, Integer, Integer)
+- uid: BOOSEproject.IAppCanvas.SetColour*
+  name: SetColour
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_SetColour_
+  commentId: Overload:BOOSEproject.IAppCanvas.SetColour
+  isSpec: "True"
+  fullName: BOOSEproject.IAppCanvas.SetColour
+  nameWithType: IAppCanvas.SetColour
+- uid: BOOSEproject.IAppCanvas.StoredProgram
+  name: StoredProgram()
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_StoredProgram
+  commentId: M:BOOSEproject.IAppCanvas.StoredProgram
+  fullName: BOOSEproject.IAppCanvas.StoredProgram()
+  nameWithType: IAppCanvas.StoredProgram()
+- uid: BOOSEproject.IAppCanvas.StoredProgram*
+  name: StoredProgram
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_StoredProgram_
+  commentId: Overload:BOOSEproject.IAppCanvas.StoredProgram
+  isSpec: "True"
+  fullName: BOOSEproject.IAppCanvas.StoredProgram
+  nameWithType: IAppCanvas.StoredProgram
+- uid: BOOSEproject.IAppCanvas.Tri(System.Int32,System.Int32)
+  name: Tri(int, int)
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_Tri_System_Int32_System_Int32_
+  commentId: M:BOOSEproject.IAppCanvas.Tri(System.Int32,System.Int32)
+  name.vb: Tri(Integer, Integer)
+  fullName: BOOSEproject.IAppCanvas.Tri(int, int)
+  fullName.vb: BOOSEproject.IAppCanvas.Tri(Integer, Integer)
+  nameWithType: IAppCanvas.Tri(int, int)
+  nameWithType.vb: IAppCanvas.Tri(Integer, Integer)
+- uid: BOOSEproject.IAppCanvas.Tri*
+  name: Tri
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_Tri_
+  commentId: Overload:BOOSEproject.IAppCanvas.Tri
+  isSpec: "True"
+  fullName: BOOSEproject.IAppCanvas.Tri
+  nameWithType: IAppCanvas.Tri
+- uid: BOOSEproject.IAppCanvas.WriteText(System.String)
+  name: WriteText(string)
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_WriteText_System_String_
+  commentId: M:BOOSEproject.IAppCanvas.WriteText(System.String)
+  name.vb: WriteText(String)
+  fullName: BOOSEproject.IAppCanvas.WriteText(string)
+  fullName.vb: BOOSEproject.IAppCanvas.WriteText(String)
+  nameWithType: IAppCanvas.WriteText(string)
+  nameWithType.vb: IAppCanvas.WriteText(String)
+- uid: BOOSEproject.IAppCanvas.WriteText*
+  name: WriteText
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_WriteText_
+  commentId: Overload:BOOSEproject.IAppCanvas.WriteText
+  isSpec: "True"
+  fullName: BOOSEproject.IAppCanvas.WriteText
+  nameWithType: IAppCanvas.WriteText
+- uid: BOOSEproject.IAppCanvas.Xpos
+  name: Xpos
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_Xpos
+  commentId: P:BOOSEproject.IAppCanvas.Xpos
+  fullName: BOOSEproject.IAppCanvas.Xpos
+  nameWithType: IAppCanvas.Xpos
+- uid: BOOSEproject.IAppCanvas.Xpos*
+  name: Xpos
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_Xpos_
+  commentId: Overload:BOOSEproject.IAppCanvas.Xpos
+  isSpec: "True"
+  fullName: BOOSEproject.IAppCanvas.Xpos
+  nameWithType: IAppCanvas.Xpos
+- uid: BOOSEproject.IAppCanvas.Ypos
+  name: Ypos
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_Ypos
+  commentId: P:BOOSEproject.IAppCanvas.Ypos
+  fullName: BOOSEproject.IAppCanvas.Ypos
+  nameWithType: IAppCanvas.Ypos
+- uid: BOOSEproject.IAppCanvas.Ypos*
+  name: Ypos
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_Ypos_
+  commentId: Overload:BOOSEproject.IAppCanvas.Ypos
+  isSpec: "True"
+  fullName: BOOSEproject.IAppCanvas.Ypos
+  nameWithType: IAppCanvas.Ypos
+- uid: BOOSEproject.IAppCanvas.g
+  name: g
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_g
+  commentId: F:BOOSEproject.IAppCanvas.g
+  fullName: BOOSEproject.IAppCanvas.g
+  nameWithType: IAppCanvas.g
+- uid: BOOSEproject.IAppCanvas.getBitmap
+  name: getBitmap()
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_getBitmap
+  commentId: M:BOOSEproject.IAppCanvas.getBitmap
+  fullName: BOOSEproject.IAppCanvas.getBitmap()
+  nameWithType: IAppCanvas.getBitmap()
+- uid: BOOSEproject.IAppCanvas.getBitmap*
+  name: getBitmap
+  href: api/BOOSEproject.IAppCanvas.html#BOOSEproject_IAppCanvas_getBitmap_
+  commentId: Overload:BOOSEproject.IAppCanvas.getBitmap
+  isSpec: "True"
+  fullName: BOOSEproject.IAppCanvas.getBitmap
+  nameWithType: IAppCanvas.getBitmap
+- uid: BOOSEproject.Program
+  name: Program
+  href: api/BOOSEproject.Program.html
+  commentId: T:BOOSEproject.Program
+  fullName: BOOSEproject.Program
+  nameWithType: Program
+- uid: BOOSEproject.Program.Main
+  name: Main()
+  href: api/BOOSEproject.Program.html#BOOSEproject_Program_Main
+  commentId: M:BOOSEproject.Program.Main
+  fullName: BOOSEproject.Program.Main()
+  nameWithType: Program.Main()
+- uid: BOOSEproject.Program.Main*
+  name: Main
+  href: api/BOOSEproject.Program.html#BOOSEproject_Program_Main_
+  commentId: Overload:BOOSEproject.Program.Main
+  isSpec: "True"
+  fullName: BOOSEproject.Program.Main
+  nameWithType: Program.Main
