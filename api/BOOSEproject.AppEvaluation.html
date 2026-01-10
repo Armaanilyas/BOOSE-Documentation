@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class AppEvaluation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class AppEvaluation ">
+    
+    <meta name="description" content="Base evaluation command for variable assignments and expressions.">
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first=First data-prev=Previous data-next=Next data-last=Last></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="BOOSEproject.AppEvaluation">
+
+
+
+  <h1 id="BOOSEproject_AppEvaluation" data-uid="BOOSEproject.AppEvaluation" class="text-break">Class AppEvaluation</h1>
+  <div class="markdown level0 summary"><p>Base evaluation command for variable assignments and expressions.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><span class="xref">Command</span></div>
+    <div class="level2"><span class="xref">AppEvaluation</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IEvaluation</span></div>
+    <div><span class="xref">ICommand</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">Command.IsDouble</span>
+    </div>
+    <div>
+      <span class="xref">Command.program</span>
+    </div>
+    <div>
+      <span class="xref">Command.parameterList</span>
+    </div>
+    <div>
+      <span class="xref">Command.parameters</span>
+    </div>
+    <div>
+      <span class="xref">Command.paramsint</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Command.Set(StoredProgram, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Command.ProcessParameters(string)</a>
+    </div>
+    <div>
+      <span class="xref">Command.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">Command.Program</span>
+    </div>
+    <div>
+      <span class="xref">Command.Name</span>
+    </div>
+    <div>
+      <span class="xref">Command.ParameterList</span>
+    </div>
+    <div>
+      <span class="xref">Command.Parameters</span>
+    </div>
+    <div>
+      <span class="xref">Command.Paramsint</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="BOOSEproject.html">BOOSEproject</a></h6>
+  <h6><strong>Assembly</strong>: BOOSEproject.dll</h6>
+  <h5 id="BOOSEproject_AppEvaluation_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AppEvaluation : Command, IEvaluation, ICommand</code></pre>
+  </div>
+  <h3 id="fields">Fields
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/new/main/apiSpec/new?filename=BOOSEproject_AppEvaluation_evaluatedExpression.md&amp;value=---%0Auid%3A%20BOOSEproject.AppEvaluation.evaluatedExpression%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/blob/main/BOOSEproject/BOOSEproject/AppEvaluation.cs/#L24">View Source</a>
+  </span>
+  <h4 id="BOOSEproject_AppEvaluation_evaluatedExpression" data-uid="BOOSEproject.AppEvaluation.evaluatedExpression">evaluatedExpression</h4>
+  <div class="markdown level1 summary"><p>Expression after evaluation / expression handling.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string evaluatedExpression</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/new/main/apiSpec/new?filename=BOOSEproject_AppEvaluation_expression.md&amp;value=---%0Auid%3A%20BOOSEproject.AppEvaluation.expression%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/blob/main/BOOSEproject/BOOSEproject/AppEvaluation.cs/#L20">View Source</a>
+  </span>
+  <h4 id="BOOSEproject_AppEvaluation_expression" data-uid="BOOSEproject.AppEvaluation.expression">expression</h4>
+  <div class="markdown level1 summary"><p>Raw expression text (right side of an assignment).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string expression</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/new/main/apiSpec/new?filename=BOOSEproject_AppEvaluation_isLocal.md&amp;value=---%0Auid%3A%20BOOSEproject.AppEvaluation.isLocal%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/blob/main/BOOSEproject/BOOSEproject/AppEvaluation.cs/#L34">View Source</a>
+  </span>
+  <h4 id="BOOSEproject_AppEvaluation_isLocal" data-uid="BOOSEproject.AppEvaluation.isLocal">isLocal</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private bool isLocal</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/new/main/apiSpec/new?filename=BOOSEproject_AppEvaluation_value.md&amp;value=---%0Auid%3A%20BOOSEproject.AppEvaluation.value%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/blob/main/BOOSEproject/BOOSEproject/AppEvaluation.cs/#L32">View Source</a>
+  </span>
+  <h4 id="BOOSEproject_AppEvaluation_value" data-uid="BOOSEproject.AppEvaluation.value">value</h4>
+  <div class="markdown level1 summary"><p>Integer value storage for evaluation types that use an <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int value</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/new/main/apiSpec/new?filename=BOOSEproject_AppEvaluation_varName.md&amp;value=---%0Auid%3A%20BOOSEproject.AppEvaluation.varName%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/blob/main/BOOSEproject/BOOSEproject/AppEvaluation.cs/#L28">View Source</a>
+  </span>
+  <h4 id="BOOSEproject_AppEvaluation_varName" data-uid="BOOSEproject.AppEvaluation.varName">varName</h4>
+  <div class="markdown level1 summary"><p>Target variable name (left side of an assignment).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string varName</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/new/main/apiSpec/new?filename=BOOSEproject_AppEvaluation_Expression.md&amp;value=---%0Auid%3A%20BOOSEproject.AppEvaluation.Expression%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/blob/main/BOOSEproject/BOOSEproject/AppEvaluation.cs/#L38">View Source</a>
+  </span>
+  <a id="BOOSEproject_AppEvaluation_Expression_" data-uid="BOOSEproject.AppEvaluation.Expression*"></a>
+  <h4 id="BOOSEproject_AppEvaluation_Expression" data-uid="BOOSEproject.AppEvaluation.Expression">Expression</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the expression portion of the assignment.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Expression { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/new/main/apiSpec/new?filename=BOOSEproject_AppEvaluation_Local.md&amp;value=---%0Auid%3A%20BOOSEproject.AppEvaluation.Local%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/blob/main/BOOSEproject/BOOSEproject/AppEvaluation.cs/#L60">View Source</a>
+  </span>
+  <a id="BOOSEproject_AppEvaluation_Local_" data-uid="BOOSEproject.AppEvaluation.Local*"></a>
+  <h4 id="BOOSEproject_AppEvaluation_Local" data-uid="BOOSEproject.AppEvaluation.Local">Local</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether this evaluation is for a local method variable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Local { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/new/main/apiSpec/new?filename=BOOSEproject_AppEvaluation_Value.md&amp;value=---%0Auid%3A%20BOOSEproject.AppEvaluation.Value%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/blob/main/BOOSEproject/BOOSEproject/AppEvaluation.cs/#L52">View Source</a>
+  </span>
+  <a id="BOOSEproject_AppEvaluation_Value_" data-uid="BOOSEproject.AppEvaluation.Value*"></a>
+  <h4 id="BOOSEproject_AppEvaluation_Value" data-uid="BOOSEproject.AppEvaluation.Value">Value</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the evaluated integer value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual int Value { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/new/main/apiSpec/new?filename=BOOSEproject_AppEvaluation_VarName.md&amp;value=---%0Auid%3A%20BOOSEproject.AppEvaluation.VarName%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/blob/main/BOOSEproject/BOOSEproject/AppEvaluation.cs/#L45">View Source</a>
+  </span>
+  <a id="BOOSEproject_AppEvaluation_VarName_" data-uid="BOOSEproject.AppEvaluation.VarName*"></a>
+  <h4 id="BOOSEproject_AppEvaluation_VarName" data-uid="BOOSEproject.AppEvaluation.VarName">VarName</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the variable name being assigned.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string VarName { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/new/main/apiSpec/new?filename=BOOSEproject_AppEvaluation_CheckParameters_System_String___.md&amp;value=---%0Auid%3A%20BOOSEproject.AppEvaluation.CheckParameters(System.String%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/blob/main/BOOSEproject/BOOSEproject/AppEvaluation.cs/#L113">View Source</a>
+  </span>
+  <a id="BOOSEproject_AppEvaluation_CheckParameters_" data-uid="BOOSEproject.AppEvaluation.CheckParameters*"></a>
+  <h4 id="BOOSEproject_AppEvaluation_CheckParameters_System_String___" data-uid="BOOSEproject.AppEvaluation.CheckParameters(System.String[])">CheckParameters(string[])</h4>
+  <div class="markdown level1 summary"><p>Parameter validation hook (currently unused in this implementation).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void CheckParameters(string[] parameterList)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</td>
+        <td><span class="parametername">parameterList</span></td>
+        <td><p>Parameter tokens to validate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Command.CheckParameters(string[])</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/new/main/apiSpec/new?filename=BOOSEproject_AppEvaluation_Compile.md&amp;value=---%0Auid%3A%20BOOSEproject.AppEvaluation.Compile%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/blob/main/BOOSEproject/BOOSEproject/AppEvaluation.cs/#L77">View Source</a>
+  </span>
+  <a id="BOOSEproject_AppEvaluation_Compile_" data-uid="BOOSEproject.AppEvaluation.Compile*"></a>
+  <h4 id="BOOSEproject_AppEvaluation_Compile" data-uid="BOOSEproject.AppEvaluation.Compile">Compile()</h4>
+  <div class="markdown level1 summary"><p>Compiles the evaluation by extracting the variable name and expression from Command.ParameterList.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Compile()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">BOOSE.Command.Compile()</span></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">VarException</span></td>
+        <td><p>Thrown when assignment formatting is invalid.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/new/main/apiSpec/new?filename=BOOSEproject_AppEvaluation_Execute.md&amp;value=---%0Auid%3A%20BOOSEproject.AppEvaluation.Execute%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/blob/main/BOOSEproject/BOOSEproject/AppEvaluation.cs/#L98">View Source</a>
+  </span>
+  <a id="BOOSEproject_AppEvaluation_Execute_" data-uid="BOOSEproject.AppEvaluation.Execute*"></a>
+  <h4 id="BOOSEproject_AppEvaluation_Execute" data-uid="BOOSEproject.AppEvaluation.Execute">Execute()</h4>
+  <div class="markdown level1 summary"><p>Executes the evaluation. If the expression is a BOOSE expression, it is evaluated via the program.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Execute()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">BOOSE.Command.Execute()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/new/main/apiSpec/new?filename=BOOSEproject_AppEvaluation_ProcessExpression_System_String_.md&amp;value=---%0Auid%3A%20BOOSEproject.AppEvaluation.ProcessExpression(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/blob/main/BOOSEproject/BOOSEproject/AppEvaluation.cs/#L119">View Source</a>
+  </span>
+  <a id="BOOSEproject_AppEvaluation_ProcessExpression_" data-uid="BOOSEproject.AppEvaluation.ProcessExpression*"></a>
+  <h4 id="BOOSEproject_AppEvaluation_ProcessExpression_System_String_" data-uid="BOOSEproject.AppEvaluation.ProcessExpression(System.String)">ProcessExpression(string)</h4>
+  <div class="markdown level1 summary"><p>Extracts the right-hand side expression from an assignment line.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual string ProcessExpression(string input)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">input</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="eii">Explicit Interface Implementations
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/new/main/apiSpec/new?filename=BOOSEproject_AppEvaluation_BOOSE_IEvaluation_Value.md&amp;value=---%0Auid%3A%20BOOSEproject.AppEvaluation.BOOSE%23IEvaluation%23Value%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/blob/main/BOOSEproject/BOOSEproject/AppEvaluation.cs/#L68">View Source</a>
+  </span>
+  <a id="BOOSEproject_AppEvaluation_BOOSE_IEvaluation_Value_" data-uid="BOOSEproject.AppEvaluation.BOOSE#IEvaluation#Value*"></a>
+  <h4 id="BOOSEproject_AppEvaluation_BOOSE_IEvaluation_Value" data-uid="BOOSEproject.AppEvaluation.BOOSE#IEvaluation#Value">IEvaluation.Value</h4>
+  <div class="markdown level1 summary"><p>Explicit <span class="xref">BOOSE.IEvaluation</span> value implementation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">object IEvaluation.Value { get; set; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">BOOSE.IEvaluation</span>
+  </div>
+  <div>
+      <span class="xref">BOOSE.ICommand</span>
+  </div>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/new/main/apiSpec/new?filename=BOOSEproject_AppEvaluation.md&amp;value=---%0Auid%3A%20BOOSEproject.AppEvaluation%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/blob/main/BOOSEproject/BOOSEproject/AppEvaluation.cs/#L16" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

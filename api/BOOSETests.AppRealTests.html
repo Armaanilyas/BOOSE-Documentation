@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class AppRealTests </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class AppRealTests ">
+    
+    <meta name="description" content="Unit tests for the  command class. Verifies behavior for compiling, executing, and storing real (double) variables.">
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first=First data-prev=Previous data-next=Next data-last=Last></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="BOOSETests.AppRealTests">
+
+
+
+  <h1 id="BOOSETests_AppRealTests" data-uid="BOOSETests.AppRealTests" class="text-break">Class AppRealTests</h1>
+  <div class="markdown level0 summary"><p>Unit tests for the <a class="xref" href="AppReal.html">AppReal</a> command class.
+Verifies behavior for compiling, executing, and storing real (double) variables.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><span class="xref">AppRealTests</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="BOOSETests.html">BOOSETests</a></h6>
+  <h6><strong>Assembly</strong>: BOOSETests.dll</h6>
+  <h5 id="BOOSETests_AppRealTests_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestClass]
+public class AppRealTests</code></pre>
+  </div>
+  <h3 id="fields">Fields
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/new/main/apiSpec/new?filename=BOOSETests_AppRealTests__canvas.md&amp;value=---%0Auid%3A%20BOOSETests.AppRealTests._canvas%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/blob/main/BOOSEproject/BOOSETests/AppRealTests.cs/#L20">View Source</a>
+  </span>
+  <h4 id="BOOSETests_AppRealTests__canvas" data-uid="BOOSETests.AppRealTests._canvas">_canvas</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private AppCanvas _canvas</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BOOSEproject.AppCanvas.html">AppCanvas</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/new/main/apiSpec/new?filename=BOOSETests_AppRealTests__program.md&amp;value=---%0Auid%3A%20BOOSETests.AppRealTests._program%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/blob/main/BOOSEproject/BOOSETests/AppRealTests.cs/#L19">View Source</a>
+  </span>
+  <h4 id="BOOSETests_AppRealTests__program" data-uid="BOOSETests.AppRealTests._program">_program</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private AppStoredProgram _program</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AppStoredProgram.html">AppStoredProgram</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/new/main/apiSpec/new?filename=BOOSETests_AppRealTests_Compile_RegistersVariableWithProgram.md&amp;value=---%0Auid%3A%20BOOSETests.AppRealTests.Compile_RegistersVariableWithProgram%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/blob/main/BOOSEproject/BOOSETests/AppRealTests.cs/#L41">View Source</a>
+  </span>
+  <a id="BOOSETests_AppRealTests_Compile_RegistersVariableWithProgram_" data-uid="BOOSETests.AppRealTests.Compile_RegistersVariableWithProgram*"></a>
+  <h4 id="BOOSETests_AppRealTests_Compile_RegistersVariableWithProgram" data-uid="BOOSETests.AppRealTests.Compile_RegistersVariableWithProgram">Compile_RegistersVariableWithProgram()</h4>
+  <div class="markdown level1 summary"><p>Verifies that <a class="xref" href="AppReal.html#AppReal_Compile">Compile()</a> successfully registers the variable
+with the <span class="xref">BOOSE.StoredProgram</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void Compile_RegistersVariableWithProgram()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/new/main/apiSpec/new?filename=BOOSETests_AppRealTests_Execute_IntegerString_SetsDoubleValue.md&amp;value=---%0Auid%3A%20BOOSETests.AppRealTests.Execute_IntegerString_SetsDoubleValue%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/blob/main/BOOSEproject/BOOSETests/AppRealTests.cs/#L84">View Source</a>
+  </span>
+  <a id="BOOSETests_AppRealTests_Execute_IntegerString_SetsDoubleValue_" data-uid="BOOSETests.AppRealTests.Execute_IntegerString_SetsDoubleValue*"></a>
+  <h4 id="BOOSETests_AppRealTests_Execute_IntegerString_SetsDoubleValue" data-uid="BOOSETests.AppRealTests.Execute_IntegerString_SetsDoubleValue">Execute_IntegerString_SetsDoubleValue()</h4>
+  <div class="markdown level1 summary"><p>Verifies that <a class="xref" href="AppReal.html#AppReal_Execute">Execute()</a> can correctly handle integer strings
+(e.g., &quot;50&quot;) and store them as doubles (50.0).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void Execute_IntegerString_SetsDoubleValue()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/new/main/apiSpec/new?filename=BOOSETests_AppRealTests_Execute_ValidNumber_SetsValue.md&amp;value=---%0Auid%3A%20BOOSETests.AppRealTests.Execute_ValidNumber_SetsValue%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/blob/main/BOOSEproject/BOOSETests/AppRealTests.cs/#L62">View Source</a>
+  </span>
+  <a id="BOOSETests_AppRealTests_Execute_ValidNumber_SetsValue_" data-uid="BOOSETests.AppRealTests.Execute_ValidNumber_SetsValue*"></a>
+  <h4 id="BOOSETests_AppRealTests_Execute_ValidNumber_SetsValue" data-uid="BOOSETests.AppRealTests.Execute_ValidNumber_SetsValue">Execute_ValidNumber_SetsValue()</h4>
+  <div class="markdown level1 summary"><p>Verifies that <a class="xref" href="AppReal.html#AppReal_Execute">Execute()</a> correctly parses a valid decimal string
+and updates the <a class="xref" href="AppReal.html#AppReal_Value">Value</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void Execute_ValidNumber_SetsValue()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/new/main/apiSpec/new?filename=BOOSETests_AppRealTests_Setup.md&amp;value=---%0Auid%3A%20BOOSETests.AppRealTests.Setup%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/blob/main/BOOSEproject/BOOSETests/AppRealTests.cs/#L26">View Source</a>
+  </span>
+  <a id="BOOSETests_AppRealTests_Setup_" data-uid="BOOSETests.AppRealTests.Setup*"></a>
+  <h4 id="BOOSETests_AppRealTests_Setup" data-uid="BOOSETests.AppRealTests.Setup">Setup()</h4>
+  <div class="markdown level1 summary"><p>Initializes a new <a class="xref" href="BOOSEproject.AppCanvas.html">AppCanvas</a> and <a class="xref" href="AppStoredProgram.html">AppStoredProgram</a> before each test
+to ensure a clean testing environment.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestInitialize]
+public void Setup()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/new/main/apiSpec/new?filename=BOOSETests_AppRealTests_Value_Property_CanBeSetAndRetrieved.md&amp;value=---%0Auid%3A%20BOOSETests.AppRealTests.Value_Property_CanBeSetAndRetrieved%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/blob/main/BOOSEproject/BOOSETests/AppRealTests.cs/#L102">View Source</a>
+  </span>
+  <a id="BOOSETests_AppRealTests_Value_Property_CanBeSetAndRetrieved_" data-uid="BOOSETests.AppRealTests.Value_Property_CanBeSetAndRetrieved*"></a>
+  <h4 id="BOOSETests_AppRealTests_Value_Property_CanBeSetAndRetrieved" data-uid="BOOSETests.AppRealTests.Value_Property_CanBeSetAndRetrieved">Value_Property_CanBeSetAndRetrieved()</h4>
+  <div class="markdown level1 summary"><p>Verifies that the <a class="xref" href="AppReal.html#AppReal_Value">Value</a> property can be manually set and retrieved.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void Value_Property_CanBeSetAndRetrieved()</code></pre>
+  </div>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/new/main/apiSpec/new?filename=BOOSETests_AppRealTests.md&amp;value=---%0Auid%3A%20BOOSETests.AppRealTests%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/ASE2025repos/ase-boose-assignment-Armaanilyas/blob/main/BOOSEproject/BOOSETests/AppRealTests.cs/#L12" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
